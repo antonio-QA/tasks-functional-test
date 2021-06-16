@@ -33,10 +33,10 @@ public class TasksTest {
 			driver.findElement(By.id("addTodo")).click();
 			
 			// Preencher descrição
-			driver.findElement(By.id("task")).sendKeys("Test Selenium");
+			driver.findElement(By.id("task")).sendKeys("Test Selenium I");
 			
 			// preencher data
-			driver.findElement(By.id("dueDate")).sendKeys("15/06/2021");
+			driver.findElement(By.id("dueDate")).sendKeys("16/06/2021");
 			
 			// acionar Salvar
 			driver.findElement(By.id("saveButton")).click();
@@ -64,7 +64,7 @@ public class TasksTest {
 			driver.findElement(By.id("addTodo")).click();
 						
 			// preencher data
-			driver.findElement(By.id("dueDate")).sendKeys("15/06/2021");
+			driver.findElement(By.id("dueDate")).sendKeys("16/06/2021");
 			
 			// acionar Salvar
 			driver.findElement(By.id("saveButton")).click();
